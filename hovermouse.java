@@ -7,7 +7,7 @@ import org.openqa.selenium.interactions.Actions;
 
 public class hovermouse {
 
-	public static void main(String[] args) {
+	//public static void main(String[] args) {
 		System.setProperty("webdriver.chrome.driver","C:\\seleniumwebdriver\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
 		driver.get("http://executeautomation.com/demosite/index.html");
